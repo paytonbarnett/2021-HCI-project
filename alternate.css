@@ -1,0 +1,78 @@
+/* alternate css style page*/
+
+html{
+	background: url("courtyard.png");
+	height:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+body{
+	background-color:rgba(218,183,69,0.9);
+	width: 780px;
+	float:right;
+	border: 10px outset rgb(33,187,173);
+}
+
+h1 {
+	font-size: 40pt;
+	display: inline;
+	text-indent: 20px;
+}
+
+#note, h3{
+	position: relative;
+	left: 400px;
+	top: 70px;
+	width: 350px;
+}
+
+h3{
+	background-color: lightgray;
+	border: 5px outset gray;
+}
+
+#note{
+	border: 5px double lightgray;
+}
+
+#beforeafter{
+	position: relative;
+	top: -75px;
+	border: 5px ridge yellow;
+	margin: 20px;
+	background-color: rgb(218,183,69);
+}
+
+#th1{
+	border: 3px solid gold;
+}
+
+#good{
+	border: 3px dotted white;
+}
+
+#bad{
+	border: 3px dotted black;
+}
+
+#staff{
+	text-align: right;
+	margin: 10px;
+	font-style: italic;
+	font-size: 30pt;
+}
+
+#staff2{
+	border: 5px outset rgb(39,59,66);
+}
+
+th, tr{
+	border: 3px dashed rgb(39,59,66);
+}
+
+#habitBio, #kamalBio{
+	width: 50%;
+}

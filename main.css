@@ -1,0 +1,271 @@
+/* basic stuff applying to all pages*/
+html{
+	background: url("martha.png");
+	height:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	font-family: Trebuchet MS, Arial Narrow, sans-serif;
+}
+
+body{
+	background-color:rgba(245,245,220,0.85);
+	padding: 30px;
+}
+
+:link{
+	color: blue;
+}
+
+:visited{
+	color:darkblue;
+}
+
+nav{
+	text-indent: 415px;
+}
+
+footer{
+	position: sticky;
+}
+
+
+
+
+
+/*home page */
+h1{
+	color: rgb(39,59,66);
+}
+
+#sfm{
+	text-align: center;
+	font-size: 100px;
+}
+
+h3{
+	text-indent: 20px;
+	
+}
+
+#note{
+	background: url("notebook.jpg");
+	display: inline-block;
+	font-size: 25px;
+	background-size: cover;
+	margin: 2px;
+	width: 500px;
+}
+
+ol{
+	position: relative;
+	left: 30px;
+	text-shadow: 2px 2px 2px rgb(194,199,126);
+}
+
+#beforeafter{
+	float:right;
+	text-align: center;
+	border: 2px solid black;
+	margin: 30px;
+	width: 40%;
+	text-shadow: 2px 2px 5px gray;
+	background-color:beige;
+}
+
+#th1{
+	border: 1px solid rgb(39,59,66);
+}
+
+#good{
+	background-color: rgb(153,255,204);
+}
+
+#bad{
+	background-color: rgb(255,153,153);
+}
+
+#staff{
+	text-align:center;
+}
+
+#staff2{
+	position: relative;
+	left: 120px;
+	width: 80%;
+	
+}
+
+#habitBio{
+	height:20%;
+	width: 70%;
+}
+
+#habitBio2, #kamalBio2{
+	width: 350px;
+	background-color: beige;
+	border: 2px groove rgb(39,59,66);
+}
+
+#kamalBio{
+
+	width:60%;
+}
+
+
+
+
+
+
+
+/*character page */
+
+#charanav{
+	text-indent: 0px;
+	
+}
+
+#charaP{}
+
+#poltable{
+	
+}
+
+.polaroid{
+	height: auto;
+	width: 92%;
+	display: block;
+	z-index: 2;
+	position: relative;
+}
+
+.polaroid:hover{
+	/*background-color: rgb(227,194,145);*/
+	opacity: 0;
+	
+}
+
+#rpol {
+	
+}
+
+#tip{
+	text-indent: 50px;
+}
+
+#parsley, #ronbo, #trencil, #kamal, #gillis, #timtam{
+	width: 280px;
+	text-align: center;
+}
+
+#parsley{
+	position: relative;
+	top: -725px;
+	left: 40px;
+	z-index: 1;
+}
+
+#ronbo{
+	position: relative;
+	top: -825px;
+	left: 439px;
+	
+}
+
+#trencil{
+	position: relative;
+	top: -925px;
+	left: 833px;
+	z-index: 1;
+}
+
+#kamal{
+	position: relative;
+	top: -570px;
+	left: 43px;
+	z-index: 1;
+}
+
+#gillis{
+	position: relative;
+	top: -650px;
+	left: 440px;
+	z-index: 1;
+}
+
+#timtam{
+	position: relative;
+	top: -730px;
+	left: 830px;
+	z-index: 1;
+}
+
+
+
+
+
+/* game info page*/
+#info{
+	text-align:right;
+}
+
+#gamenav{
+	float:right;
+	
+}
+
+iframe{
+	display: inline-block;
+}
+
+#gamediv{
+	display: inline-block;
+	position: relative;
+	top: 90px;
+}
+
+#desc{
+	width: 300px;
+	display: inline-block;
+}
+
+#download{
+	float:right;
+	text-align: center;
+}
+
+#steam, #itchio{
+	width: 200px;
+}
+
+#down{
+	float:right;
+	width: 200px;
+}
+
+#creator{
+	width: 500px;
+	margin: 10px;
+	display: inline-block;
+	float: center;
+	position: relative;
+	left: 350px;
+	top: -180px;
+	background-color: beige;
+	border: 5px inset rgb(39,59,66);
+	
+}
+
+caption{
+	background-color: rgb(154,188,201);
+}
+
+#lane, #limbo{
+	width: 200px;
+	display: inline-block;
+}
+
+#twitter{
+	width: 50px;
+}
